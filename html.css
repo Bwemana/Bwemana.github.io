@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-position: auto;
+}
+body{
+    height: 100%;
+}
+
+#header{
+    background-image: url(./pexels-photo-6551414.jpeg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+img{
+    size: 100px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 7px 7px 10px rgb(6, 6, 54), 20px 20px 30px rgb(71, 1, 11);
+}
+#header .nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.logo-container,.nav-links, .cart{
+    display: flex;
+    box-shadow: 7px 7px 10px rgb(50, 50, 12), 10px 10px 40px darkred;
+    
+}
+.logo-container {
+flex: 1;
+}
+.logo{
+    font-weight: 400;
+    margin: 5px;
+}
+nav{
+    flex: 2;
+} 
+.nav-link {
+color: red;
+font-size: 18px;
+text-decoration: none;
+}
+.intro-text p{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 22px;
+    color:darkblue;
+}
+ 
+.intro-text h1{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+     font-size: 44px;
+     font-weight: 500;
+     color: orangered;
+     
+}
+h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    background: linear-gradient(45deg, red, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+h5{
+    border: solid;
+    background-color: orange;
+    border-radius: 100px;
+    color: blue;
+    height: 70px;
+    width: 1050px;
+    margin: 50px;
+    display: flex;
+    box-shadow: 7px 7px 10px rgb(20, 20, 197), 20px 20px 30px yellow;
+}
+h5 input{
+    height: 10px;
+    width: 1050px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 3px blue, 3px 3px 4px orange;
+    border-radius: 50px;
+}
+h5 img{
+    height: 70px;
+    width: 70px;
+
+}
+
+.cta{
+    padding: 50px, 0px, 0px, 0px;
+}
+.cta-select{
+margin-top: 20px;
+margin-left: 50px;
+border: 2px solid #1a0217;
+background: transparent;
+background-color: #c36cbb;
+color: black;
+width: 150px;
+height: 50px;
+cursor: pointer;
+font-size: 16px;
+transition: 1s;
+border-radius: 10px;
+}
+.cta-add {
+background: transparent;
+width: 150px;
+height: 50px;
+cursor: pointer;
+font-size: 16px;
+color: black;
+margin: 20px 0px 0px 20px;
+}
+#subscribe{
+    max-width: 120px;
+    padding: 10px;
+    margin: 30px;
+}
+#newsletter{
+    margin-top: 5px;
+    height: 20vh;
+    display: flex;
+flex-direction: row;
+    color: #ffffff;
+    background: lightsalmon;
+    border-radius: 10px;
+    line-height: 20vh;
+}
+#newsletter h1{
+    margin-left:90px;
+    
+}
+#newsletter form{
+float: right;
+
+
+
+}
+#newsletter input{
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 590px;
+    
+}
+#newsletter button{
+    width: 70px;
+    height: 20px;
+    margin-top: 58px;
+    margin-left: 20px;
+    border-radius: 5px
+}
+#newsletter button:hover{
+    color: white;
+    background-color: rgb(50, 50, 95);
+    cursor: pointer;
+}
+#box{
+    display: flex;
+    margin: 2px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background-color: lightblue;
+   color:blue;
+   font-size: 1.2rem;
+   text-align: center;
+}
+#box img{
+    height: 300px;
+    width: 300px;
+    margin-top: -85px;
+}
+
+#footer{
+    background-color: black;
+    padding: 15px;
+    margin: 15px;
+    color: orangered;
+    text-align: center;
+}
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: rotateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0px);
+    }
+
+@media screen and (max-width: 1024px) {
+    .presentation{
+        flex-direction: column;
+    }
+}
+    .introduction{
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .intro-text h1 {
+font-size: 30px;
+    }
+    .intro-text p {
+        font-size: 18px;
+    }
+    .cta{
+        font-size: padding: 10px 0px 0px 0px;
+    }
+    .laptop-select {
+        bottom: 5%;right: 50%;
+        width: 50%;
+        transform: translate(50% 5%);
+    }
+    .cover img{
+        height: 80%;
+    }
+
